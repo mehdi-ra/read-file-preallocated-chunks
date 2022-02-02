@@ -1,0 +1,39 @@
+Arguments: 
+  /home/me0dira/.nvm/versions/node/v16.10.0/bin/node /home/me0dira/.yarn/bin/yarn.js start
+
+PATH: 
+  /home/me0dira/.yarn/bin:/home/me0dira/.config/yarn/global/node_modules/.bin:/home/me0dira/.yarn/bin:/home/me0dira/.config/yarn/global/node_modules/.bin:/home/me0dira/.nvm/versions/node/v16.10.0/bin:/home/me0dira/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/me0dira/Desktop/test/package.json: Unexpected token } in JSON at position 128
+      at JSON.parse (<anonymous>)
+      at /home/me0dira/.yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/me0dira/.yarn/lib/cli.js:310:30)
+      at /home/me0dira/.yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "start: node index.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
